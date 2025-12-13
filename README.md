@@ -93,11 +93,10 @@ python JS-Sentinel.py <js_folder> [-o output_file]
 
 CLI Arguments
 
-Argument	        Description
-
-js_folder	        Path to directory containing .js files
--o, --output	    Output file (default: js_secrets.txt)
-
+| Argument         | Description                                          |
+| ---------------- | ---------------------------------------------------- |
+| `js_folder`      | Path to the directory containing `.js` files to scan |
+| `-o`, `--output` | Output file name (default: `js_secrets.txt`)         |
 
 Example :
 
