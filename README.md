@@ -1,4 +1,16 @@
+# 🛡️ JS-Sentinel — JavaScript Secret Scanner
 
+![Python](https://img.shields.io/badge/python-3.8%2B-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Security](https://img.shields.io/badge/focus-security-critical)
+![Status](https://img.shields.io/badge/status-active-success)
+![Platform](https://img.shields.io/badge/platform-cross--platform-lightgrey)
+
+**JS-Sentinel** is a high-precision security auditing tool that scans **JavaScript files** for exposed secrets, credentials, tokens, and sensitive data using a carefully curated set of **advanced regular expressions**.
+
+Built for **security engineers, developers, DevOps teams, and auditors**, JS-Sentinel helps prevent credential leaks before they reach production or public repositories.
+
+---
 # 🔍 JS Secret Extractor
 
 A powerful Python-based security auditing tool that scans **JavaScript files** for exposed secrets, credentials, tokens, and sensitive information using **advanced regular expressions**.
@@ -110,4 +122,23 @@ Remove them from the source code
 
 Store secrets using environment variables or secret managers
 
+## 🤝 Contributing
 
+Contributions are welcome!
+
+You can help by:
+
+- Adding new regex patterns
+
+- Improving detection accuracy
+
+- Reducing false positives
+
+- Adding JSON or CSV output support
+
+Please open an issue or submit a pull request.
+
+## 📜 License
+
+MIT License
+You are free to use, modify, and distribute this project under the terms of the license.
