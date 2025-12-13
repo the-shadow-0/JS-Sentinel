@@ -85,7 +85,25 @@ Secret leaks are one of the most common and dangerous security failures in moder
 git clone https://github.com/the-shadow-0/JS-Sentinel.git
 cd JS-Sentinel
 ```
+## 🛠 Usage
 
+```bash
+python JS-Sentinel.py <js_folder> [-o output_file]
+```
+
+CLI Arguments
+
+Argument	        Description
+
+js_folder	        Path to directory containing .js files
+-o, --output	    Output file (default: js_secrets.txt)
+
+
+Example :
+
+```bash
+python JS-Sentinel.py ./build -o audit-report.txt
+```
 
 ## 🔒 Security & Responsible Use
 
