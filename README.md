@@ -1,14 +1,14 @@
-    🔍 JS Secret Extractor
+## 🔍 JS Secret Extractor
 
 A powerful Python-based security auditing tool that scans JavaScript files for exposed secrets, credentials, tokens, and sensitive information using advanced regular expressions.
 
 This tool is designed for developers, security researchers, and DevOps teams to identify accidental secret leaks in frontend and backend JavaScript codebases.
 
-    ✨ Features
+✨ Features
 
-    🔐 Detects API keys, tokens, credentials, and private keys
+🔐 Detects API keys, tokens, credentials, and private keys
 
-    ☁️ Supports major cloud & service providers:
+☁️ Supports major cloud & service providers:
 
 AWS
 
