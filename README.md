@@ -8,92 +8,85 @@
 
 **JS-Sentinel** is a high-precision security auditing tool that scans **JavaScript files** for exposed secrets, credentials, tokens, and sensitive data using a carefully curated set of **advanced regular expressions**.
 
-Built for **security engineers, developers, DevOps teams, and auditors**, JS-Sentinel helps prevent credential leaks before they reach production or public repositories.
+Built for **pentesters, bug hunters, security engineers, developers, DevOps teams, and auditors**, JS-Sentinel helps prevent credential leaks before they reach production or public repositories.
 
 ---
-# 🔍 JS Secret Extractor
 
-A powerful Python-based security auditing tool that scans **JavaScript files** for exposed secrets, credentials, tokens, and sensitive information using **advanced regular expressions**.
+## 🚨 Why JS-Sentinel?
 
-This project is intended for **developers, security researchers, and DevOps teams** to identify accidental secret leaks in JavaScript codebases.
+Secret leaks are one of the most common and dangerous security failures in modern applications. JS-Sentinel helps you:
+
+- Detect leaked secrets **before attackers do**
+- Audit legacy JavaScript codebases
+- Secure frontend bundles and backend scripts
+- Enforce secret hygiene in CI/CD pipelines
+
+> 🔐 *This tool performs static analysis only — it does NOT exploit, brute-force, or bypass security controls.*
 
 ---
 
 ## ✨ Features
 
-- 🔐 Detects **API keys, tokens, credentials, and private keys**
-- ☁️ Supports major platforms and services:
-  - AWS (Access Keys, Secret Keys, Session Tokens)
-  - Google API Keys
-  - GitHub, GitLab, Bitbucket tokens
-  - Stripe, Square, Mailgun, Slack, Discord, Vercel
-- 🧠 Advanced pattern matching:
-  - JWTs
-  - Bearer & Basic Auth tokens
-  - Secrets embedded in URLs
-- 📂 Recursive directory scanning
-- 🧾 Clean, human-readable output report
-- ⚡ Fast, lightweight, and dependency-free (pure Python)
+- 🔍 Recursive scanning of `.js` files
+- 🔐 Detection of **40+ secret types**
+- ☁️ Cloud & SaaS provider coverage
+- 🧠 Smart regex patterns with low false positives
+- 🧾 Clean, structured, audit-ready reports
+- ⚡ Fast, lightweight, zero dependencies
 
 ---
 
-## 🧠 What It Detects
+## 🧠 What JS-Sentinel Detects
 
-### Common Identifiers
-- Emails
-- URLs
-- Subdomains
+### 🔑 Credentials & Secrets
+- API keys, access tokens, client secrets
+- Usernames & passwords
+- Nonces and auth tokens
 
-### Cloud & Platform Secrets
-- AWS access keys, secret keys, session tokens
-- Firebase database URLs
-- Google API keys
+### ☁️ Cloud & Platform Providers
+- **AWS** (Access Key, Secret Key, Session Token)
+- **Google API Keys**
+- **Firebase database URLs**
+- **Vercel secrets**
 
-### Authentication Tokens
+### 🔐 Authentication Tokens
 - GitHub, GitLab, Bitbucket tokens
 - Slack & Discord tokens
 - JWTs
-- Bearer & Basic authentication headers
+- Bearer & Basic Auth headers
 
-### API Keys & Services
-- Stripe live keys
+### 💳 Third-Party Services
+- Stripe (live keys)
 - Square access tokens
 - Mailgun API keys
 - Heroku API keys
-- Vercel secrets
 
-### Credentials & Sensitive Data
-- Usernames
-- Passwords
-- Nonces
-- Tokens embedded in URLs
-
-### Private Keys
+### 🔒 Private Keys
 - SSH private keys
 - PEM private keys
+
+### 🌐 Miscellaneous
+- Emails
+- URLs & subdomains
+- Tokens embedded in URLs
 
 ---
 
 ## 📦 Requirements
 
-- Python **3.8+**
+- Python **3.8 or higher**
 - No external dependencies
 
 ---
 
 ## 🚀 Installation
 
-Clone the repository:
-
 ```bash
-git clone https://github.com/the-shadow-0/js-secret-extractor.git
-cd js-secret-extractor
+git clone https://github.com/your-username/js-sentinel.git
+cd JS-Sentinel
 ```
-🛠 Usage
 
-```bash
-python extractor.py <js_folder> [-o output_file]
-```
+
 ## 🔒 Security & Responsible Use
 
 ⚠️ IMPORTANT
