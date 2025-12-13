@@ -82,7 +82,7 @@ Secret leaks are one of the most common and dangerous security failures in moder
 ## 🚀 Installation
 
 ```bash
-git clone https://github.com/your-username/js-sentinel.git
+git clone https://github.com/the-shadow-0/JS-Sentinel.git
 cd JS-Sentinel
 ```
 
