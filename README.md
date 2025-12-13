@@ -76,3 +76,11 @@ Clone the repository:
 ```bash
 git clone https://github.com/your-username/js-secret-extractor.git
 cd js-secret-extractor
+```
+🛠 Usage
+
+```bash
+python extractor.py <js_folder> [-o output_file]
+```
+
+
