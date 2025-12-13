@@ -2,7 +2,7 @@ import os
 import re
 import argparse
 
-# Advanced regex patterns for detecting secrets and sensitive information in JS files
+# Advanced regex patterns for detecting secrets and sensitive information in JS
 PATTERNS = {
     # Common identifiers
     'email': re.compile(r"\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}\b"),
