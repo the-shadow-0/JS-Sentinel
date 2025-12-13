@@ -74,7 +74,7 @@ This project is intended for **developers, security researchers, and DevOps team
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/js-secret-extractor.git
+git clone https://github.com/the-shadow-0/js-secret-extractor.git
 cd js-secret-extractor
 ```
 🛠 Usage
@@ -82,5 +82,32 @@ cd js-secret-extractor
 ```bash
 python extractor.py <js_folder> [-o output_file]
 ```
+## 🔒 Security & Responsible Use
+
+⚠️ IMPORTANT
+
+This tool is intended only for:
+
+Codebases you own
+
+Applications you are authorized to test
+
+Legitimate security audits and reviews
+
+❌ Do NOT use this tool to:
+
+Scan systems without permission
+
+Harvest or misuse credentials
+
+Exploit discovered secrets
+
+If secrets are discovered:
+
+Rotate them immediately
+
+Remove them from the source code
+
+Store secrets using environment variables or secret managers
 
 
